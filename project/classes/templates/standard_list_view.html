@@ -1,0 +1,6 @@
+{% extends "basic_app\base.html" %}
+{% block body_block %}
+{% for standard in standards %}
+    <a href="">{{standard.name}}</a><br>
+{% endfor %}
+{% endblock %}
